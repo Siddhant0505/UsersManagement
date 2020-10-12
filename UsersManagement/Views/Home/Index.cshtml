@@ -1,0 +1,57 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+<div>
+    <input type="button" value="Try" onclick="CORSRequest()" />
+    <span id='data'>(Result)</span>
+</div>
+
+<script>
+
+    var serviceUrl = 'https://localhost:44393/Accounts';
+
+    function CORSRequest() {
+        var method = $('#method').val();
+
+        $.ajax({
+            type: "Get",
+            url: "https://localhost:44393/Accounts",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                $("#data").text(response);
+            },
+            failure: function (response) {
+                alert('s');
+                $('#data').text(response);
+                //alert(response);
+            }
+        });
+    }
+
+</script>
+
+@*<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "Get",
+            url: "https://localhost:44393/Accounts",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (response) {
+                $("#data").text(response);
+            },
+            failure: function (response) {
+                $('#data').text(jqXHR.responseText || textStatus);
+                //alert(response.d);
+            }
+        });
+
+
+    });
+</script>*@  

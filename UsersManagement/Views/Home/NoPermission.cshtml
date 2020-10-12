@@ -1,0 +1,23 @@
+﻿@{
+    string CurrentName = (string)ViewData["Layout"];
+    switch (CurrentName)
+    {
+        case "Employee":
+            Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+            break;
+        default:
+            //Admin layout
+            Layout = "~/Views/Shared/_Layout.cshtml";
+            break;
+    }
+}
+
+<div style="padding-top:50px;"></div>
+<h2>Permission Denied!</h2>
+
+<div class="row">
+    <div style="padding:50px;">
+        <div style="font-size:large;color:red;">Access denied!!! </div>
+        <div style="font-size:large;color:red;padding-top:20px;">You do not have permission</div>
+    </div>
+</div>

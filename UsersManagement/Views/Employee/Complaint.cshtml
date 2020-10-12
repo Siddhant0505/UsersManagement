@@ -1,0 +1,103 @@
+﻿@model UsersManagement.Domain.Employee.Employee
+@{
+    ViewData["Title"] = "Complaint";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+}
+
+<!DOCTYPE html>
+
+
+<form>
+    @*asp-route-returnurl="@Model.ReturnUrl">*@
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div>
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" />
+        <span asp-validation-for="Phone"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label asp-for="Salary"></label>
+        <input asp-for="Salary" />
+        <span asp-validation-for="Salary"></span>
+    </div>
+    <div style="padding-top:20px;">
+        <button type="button" id="btnEndSession" onclick="OnClick_AuthorizeAjaxCall()" class="btn btn-primary btn-lg rph-login-button">Save Complaint</button>
+    </div>
+
+    <div style="padding-top:50px;"></div>
+    <div class="row">
+        <h3>Authentication for Ajax calls</h3>
+        <div style="color:gray;">
+            When user is idle and the session expires, in this case we need to handle Ajax calls, End user session and click on Ajax Call button
+        </div>
+        <div style="padding-top:30px;">
+            <span><button type="button" id="btnEndSession" onclick="OnClick_EndSession()" class="btn btn-primary btn-lg rph-login-button">End Session</button></span>
+            <span style="padding-left:30px;"><button type="button" id="btnAjaxCall" onclick="OnClick_AuthenticateAjaxCall()" class="btn btn-primary btn-lg rph-login-button">Authenticate Ajax Call</button></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div style="padding-top:50px;"></div>
+        <h3>Authorizarion for Ajax calls</h3>
+        <div style="color:grey;">
+            Only DIRECTOR and SUPERVISOR have permission to this Ajax call. If logged in user is an ANALYST(<span style="color:Highlight;">dwill@email.com, JBlack@email.com</span>), then show Pemission Denied page.<br />
+            Click the below button to check permission.
+        </div>
+        <div style="padding-top:30px;">
+            <span><button type="button" id="btnEndSession" onclick="OnClick_AuthorizeAjaxCall()" class="btn btn-primary btn-lg rph-login-button">Authorize Ajax Call</button></span>
+        </div>
+    </div>
+</form>
+
+
+<script>
+    function OnClick_EndSession() {
+        $.ajax({
+            type: 'GET',
+            url: '/Home/EndSession',
+            data: {},
+            cache: false,
+            success: function (result) { }
+        });
+        alert("End of User Session, Click on Ajax Call button to autneticate Ajax calls, It should take you to login page.");
+    }
+
+    function OnClick_AuthenticateAjaxCall() {
+        $.ajax({
+            type: 'GET',
+            url: '/Employee/AuthenticateAjaxCalls',
+            data: {},
+            cache: false,
+            success: function (result) {
+                if (result != "")
+                    alert("Your session is still active, end session to see how authentication for Ajax call works!");
+            }
+        });
+    }
+
+    function OnClick_AuthorizeAjaxCall() {
+        $.ajax({
+            type: 'GET',
+            url: '/Employee/AuthorizeAjaxCalls',
+            data: {},
+            cache: false,
+            success: function (result) {
+                if (result != "")
+                    alert("Your have permission for this Ajax call!");
+            }
+        });
+    }
+</script>

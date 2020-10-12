@@ -1,0 +1,363 @@
+2020-08-30 03:04:20.3216 Info Message Template Auto Format enabled
+2020-08-30 03:04:20.3509 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 03:04:20.3772 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 03:04:20.3772 Error DatabaseTarget(Name=d): Failed to create ConnectionType from DBProvider=System.Data.SqlClient Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at NLog.Targets.DatabaseTarget.SetConnectionType()
+   at NLog.Targets.DatabaseTarget.InitializeTarget()
+
+
+2020-08-30 03:04:20.4370 Error Database Target[d]: Error initializing target Exception: System.IO.FileNotFoundException: Could not load file or assembly 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+File name: 'System.Data.SqlClient, Culture=neutral, PublicKeyToken=null'
+   at System.Reflection.RuntimeAssembly.nLoad(AssemblyName fileName, String codeBase, RuntimeAssembly assemblyContext, StackCrawlMark& stackMark, Boolean throwOnFileNotFound, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.RuntimeAssembly.InternalLoadAssemblyName(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef, StackCrawlMark& stackMark, AssemblyLoadContext assemblyLoadContext)
+   at System.Reflection.Assembly.Load(AssemblyName assemblyRef)
+   at NLog.Targets.DatabaseTarget.SetConnectionType()
+   at NLog.Targets.DatabaseTarget.InitializeTarget()
+   at NLog.Targets.Target.Initialize(LoggingConfiguration configuration)
+
+
+2020-08-30 03:04:20.4401 Info Configuration initialized.
+2020-08-30 03:04:20.4401 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 03:13:04.9141 Info Message Template Auto Format enabled
+2020-08-30 03:13:04.9399 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 03:13:04.9630 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 03:13:05.0948 Info Configuration initialized.
+2020-08-30 03:13:05.0948 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 13:59:18.9719 Info Message Template Auto Format enabled
+2020-08-30 13:59:19.0815 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 13:59:19.1205 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 13:59:19.2816 Info Configuration initialized.
+2020-08-30 13:59:19.2816 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 14:06:31.5031 Info Message Template Auto Format enabled
+2020-08-30 14:06:31.5498 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 14:06:31.5797 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 14:06:31.6123 Info Configuration initialized.
+2020-08-30 14:06:31.6123 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 14:08:05.1397 Info Message Template Auto Format enabled
+2020-08-30 14:08:05.1692 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 14:08:05.1957 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 14:08:05.2385 Info Configuration initialized.
+2020-08-30 14:08:05.2385 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 14:10:01.1100 Info Message Template Auto Format enabled
+2020-08-30 14:10:01.2003 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 14:10:01.2704 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 14:10:01.3184 Info Configuration initialized.
+2020-08-30 14:10:01.3184 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 14:11:42.9288 Info Message Template Auto Format enabled
+2020-08-30 14:11:42.9598 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 14:11:42.9845 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 14:11:43.0150 Info Configuration initialized.
+2020-08-30 14:11:43.0150 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 14:37:25.1163 Info Message Template Auto Format enabled
+2020-08-30 14:37:25.3080 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 14:37:25.3384 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\UsersManagement\UsersManagement\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 14:37:25.4859 Info Configuration initialized.
+2020-08-30 14:37:25.4859 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:02:09.2172 Info Message Template Auto Format enabled
+2020-08-30 15:02:09.2883 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:02:09.3162 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\UsersManagement\UsersManagement\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:02:09.3906 Info Configuration initialized.
+2020-08-30 15:02:09.3906 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:03:36.7480 Info Message Template Auto Format enabled
+2020-08-30 15:03:36.7841 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:03:36.8109 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\UsersManagement\UsersManagement\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:03:36.8700 Info Configuration initialized.
+2020-08-30 15:03:36.8700 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:14:56.5066 Info Message Template Auto Format enabled
+2020-08-30 15:14:56.5356 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:14:56.5658 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\UsersManagement\UsersManagement\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:14:56.6222 Info Configuration initialized.
+2020-08-30 15:14:56.6222 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:18:07.0155 Info Message Template Auto Format enabled
+2020-08-30 15:18:07.0480 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:18:07.0726 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:18:07.1182 Info Configuration initialized.
+2020-08-30 15:18:07.1182 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:26:16.8650 Info Message Template Auto Format enabled
+2020-08-30 15:26:16.9477 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:26:16.9858 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\UsersManagement\UsersManagement\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:26:17.0818 Info Configuration initialized.
+2020-08-30 15:26:17.0818 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:28:13.6078 Info Message Template Auto Format enabled
+2020-08-30 15:28:13.6898 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:28:13.7477 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\UsersManagement\UsersManagement\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:28:13.9044 Info Configuration initialized.
+2020-08-30 15:28:13.9044 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:29:58.8145 Info Message Template Auto Format enabled
+2020-08-30 15:29:58.8484 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:29:58.8763 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:29:58.9576 Info Configuration initialized.
+2020-08-30 15:29:58.9576 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:32:14.4270 Info Message Template Auto Format enabled
+2020-08-30 15:32:14.4637 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:32:14.4983 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:32:14.5407 Info Configuration initialized.
+2020-08-30 15:32:14.5407 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:52:49.4527 Info Message Template Auto Format enabled
+2020-08-30 15:52:49.5239 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:52:49.5506 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:52:49.6793 Info Configuration initialized.
+2020-08-30 15:52:49.6793 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:54:05.3668 Info Message Template Auto Format enabled
+2020-08-30 15:54:05.4029 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:54:05.4323 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:54:05.4796 Info Configuration initialized.
+2020-08-30 15:54:05.4796 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:55:12.1676 Info Message Template Auto Format enabled
+2020-08-30 15:55:12.1954 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:55:12.2230 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:55:12.2724 Info Configuration initialized.
+2020-08-30 15:55:12.2724 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 15:57:16.8234 Info Message Template Auto Format enabled
+2020-08-30 15:57:16.8519 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 15:57:16.8789 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 15:57:16.9114 Info Configuration initialized.
+2020-08-30 15:57:16.9114 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 16:01:07.0327 Info Message Template Auto Format enabled
+2020-08-30 16:01:07.0708 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 16:01:07.1063 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 16:01:07.2162 Info Configuration initialized.
+2020-08-30 16:01:07.2162 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 16:04:13.5430 Info Message Template Auto Format enabled
+2020-08-30 16:04:13.5821 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 16:04:13.6060 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 16:04:13.6415 Info Configuration initialized.
+2020-08-30 16:04:13.6421 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 16:05:10.5544 Info Message Template Auto Format enabled
+2020-08-30 16:05:10.6125 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 16:05:10.6689 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 16:05:10.7133 Info Configuration initialized.
+2020-08-30 16:05:10.7133 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 16:06:03.5190 Info Message Template Auto Format enabled
+2020-08-30 16:06:03.5517 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 16:06:03.5748 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 16:06:03.6042 Info Configuration initialized.
+2020-08-30 16:06:03.6042 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 16:06:36.7155 Info Message Template Auto Format enabled
+2020-08-30 16:06:36.7415 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 16:06:36.7667 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 16:06:36.8176 Info Configuration initialized.
+2020-08-30 16:06:36.8176 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 16:08:25.5200 Info Message Template Auto Format enabled
+2020-08-30 16:08:25.5497 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 16:08:25.5710 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 16:08:25.5984 Info Configuration initialized.
+2020-08-30 16:08:25.5984 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 16:09:07.8717 Info Message Template Auto Format enabled
+2020-08-30 16:09:07.9132 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 16:09:07.9496 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\aspnet-core-3-signup-verification-api-master with SQLLite\COnvert into SQL API\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 16:09:07.9877 Info Configuration initialized.
+2020-08-30 16:09:07.9877 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 19:45:06.1479 Info Message Template Auto Format enabled
+2020-08-30 19:45:06.1765 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 19:45:06.1981 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\UsersManagement\UsersManagement\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-30 19:45:06.3073 Info Configuration initialized.
+2020-08-30 19:45:06.3073 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 19:45:06.6939 Info AppDomain Shutting down. Logger closing...
+2020-08-30 19:45:06.7161 Info Logger has been shut down.
+2020-08-30 20:49:05.0914 Info Message Template Auto Format enabled
+2020-08-30 20:49:05.1158 Info Adding target DatabaseTarget(Name=d)
+2020-08-30 20:49:05.1400 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Publish\UserManagement\NLog.config
+2020-08-30 20:49:05.2128 Info Configuration initialized.
+2020-08-30 20:49:05.2128 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-30 21:10:00.9876 Info AppDomain Shutting down. Logger closing...
+2020-08-30 21:10:00.9876 Info Logger has been shut down.
+2020-08-31 00:49:07.5141 Info Message Template Auto Format enabled
+2020-08-31 00:49:07.6420 Info Adding target DatabaseTarget(Name=d)
+2020-08-31 00:49:07.7096 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\UsersManagement\UsersManagement\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-31 00:49:07.8783 Info Configuration initialized.
+2020-08-31 00:49:07.8783 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-31 00:53:58.5248 Info Message Template Auto Format enabled
+2020-08-31 00:53:58.5940 Info Adding target DatabaseTarget(Name=d)
+2020-08-31 00:53:58.6241 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\UsersManagement\UsersManagement\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-31 00:53:58.6557 Info Configuration initialized.
+2020-08-31 00:53:58.6557 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-08-31 01:07:14.8095 Info Message Template Auto Format enabled
+2020-08-31 01:07:14.8351 Info Adding target DatabaseTarget(Name=d)
+2020-08-31 01:07:14.8607 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-08-31 01:07:14.9795 Info Configuration initialized.
+2020-08-31 01:07:14.9795 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 02:54:58.1501 Info Message Template Auto Format enabled
+2020-09-12 02:55:00.8370 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 02:55:02.0800 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 02:55:07.0499 Info Configuration initialized.
+2020-09-12 02:55:07.0499 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 13:17:30.6988 Info Message Template Auto Format enabled
+2020-09-12 13:17:30.8423 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 13:17:30.8841 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 13:17:31.2351 Info Configuration initialized.
+2020-09-12 13:17:31.2351 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 14:04:36.8515 Info AppDomain Shutting down. Logger closing...
+2020-09-12 14:04:36.8673 Info Logger has been shut down.
+2020-09-12 14:05:34.8260 Info Message Template Auto Format enabled
+2020-09-12 14:05:34.8706 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 14:05:34.8900 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 14:05:34.9631 Info Configuration initialized.
+2020-09-12 14:05:34.9631 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 15:52:26.6579 Info Message Template Auto Format enabled
+2020-09-12 15:52:26.7983 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 15:52:26.9045 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 15:52:27.0560 Info Configuration initialized.
+2020-09-12 15:52:27.0560 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 18:10:39.7948 Info Message Template Auto Format enabled
+2020-09-12 18:10:39.8241 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 18:10:39.8522 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 18:10:39.8821 Info Configuration initialized.
+2020-09-12 18:10:39.8821 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 18:15:10.9831 Info Message Template Auto Format enabled
+2020-09-12 18:15:11.0185 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 18:15:11.0474 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 18:15:11.0747 Info Configuration initialized.
+2020-09-12 18:15:11.0747 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 18:17:59.1751 Info Message Template Auto Format enabled
+2020-09-12 18:17:59.2057 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 18:17:59.2312 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 18:17:59.2641 Info Configuration initialized.
+2020-09-12 18:17:59.2641 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 18:19:40.4226 Info Message Template Auto Format enabled
+2020-09-12 18:19:40.4522 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 18:19:40.4781 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 18:19:40.5046 Info Configuration initialized.
+2020-09-12 18:19:40.5046 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 18:39:35.8931 Info Message Template Auto Format enabled
+2020-09-12 18:39:35.9178 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 18:39:35.9404 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 18:39:35.9656 Info Configuration initialized.
+2020-09-12 18:39:35.9656 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 19:06:17.2696 Info Message Template Auto Format enabled
+2020-09-12 19:06:17.4352 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 19:06:17.4765 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 19:06:17.5158 Info Configuration initialized.
+2020-09-12 19:06:17.5158 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 19:08:31.1357 Info Message Template Auto Format enabled
+2020-09-12 19:08:31.1681 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 19:08:31.1976 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 19:08:31.2357 Info Configuration initialized.
+2020-09-12 19:08:31.2357 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 21:11:42.1509 Info Message Template Auto Format enabled
+2020-09-12 21:11:42.1784 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 21:11:42.2039 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 21:11:42.2307 Info Configuration initialized.
+2020-09-12 21:11:42.2307 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 21:19:18.2958 Info Message Template Auto Format enabled
+2020-09-12 21:19:18.3247 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 21:19:18.3441 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 21:19:18.3695 Info Configuration initialized.
+2020-09-12 21:19:18.3695 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-12 21:44:35.7092 Info Message Template Auto Format enabled
+2020-09-12 21:44:35.7356 Info Adding target DatabaseTarget(Name=d)
+2020-09-12 21:44:35.7685 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-12 21:44:35.7966 Info Configuration initialized.
+2020-09-12 21:44:35.7966 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-13 01:13:51.1007 Info Message Template Auto Format enabled
+2020-09-13 01:13:51.2208 Info Adding target DatabaseTarget(Name=d)
+2020-09-13 01:13:51.2576 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-13 01:13:51.4064 Info Configuration initialized.
+2020-09-13 01:13:51.4064 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-13 16:19:04.0475 Info Message Template Auto Format enabled
+2020-09-13 16:19:04.1111 Info Adding target DatabaseTarget(Name=d)
+2020-09-13 16:19:04.1553 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-13 16:19:04.1946 Info Configuration initialized.
+2020-09-13 16:19:04.1946 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-13 17:18:37.9021 Info AppDomain Shutting down. Logger closing...
+2020-09-13 17:18:37.9536 Info Logger has been shut down.
+2020-09-13 17:19:42.3719 Info Message Template Auto Format enabled
+2020-09-13 17:19:42.4238 Info Adding target DatabaseTarget(Name=d)
+2020-09-13 17:19:42.4529 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-13 17:19:42.4680 Info Configuration initialized.
+2020-09-13 17:19:42.4680 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-13 17:33:08.0440 Info AppDomain Shutting down. Logger closing...
+2020-09-13 17:33:08.0622 Info Logger has been shut down.
+2020-09-13 17:33:32.4862 Info Message Template Auto Format enabled
+2020-09-13 17:33:32.5139 Info Adding target DatabaseTarget(Name=d)
+2020-09-13 17:33:32.5398 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-13 17:33:32.5692 Info Configuration initialized.
+2020-09-13 17:33:32.5692 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-14 01:38:42.0935 Info Message Template Auto Format enabled
+2020-09-14 01:38:42.2173 Info Adding target DatabaseTarget(Name=d)
+2020-09-14 01:38:42.2708 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-14 01:38:42.4010 Info Configuration initialized.
+2020-09-14 01:38:42.4010 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-14 02:04:05.8913 Info Message Template Auto Format enabled
+2020-09-14 02:04:05.9211 Info Adding target DatabaseTarget(Name=d)
+2020-09-14 02:04:05.9409 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-14 02:04:05.9553 Info Configuration initialized.
+2020-09-14 02:04:05.9553 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-14 02:57:39.4572 Info AppDomain Shutting down. Logger closing...
+2020-09-14 02:57:39.4841 Info Logger has been shut down.
+2020-09-14 14:42:14.5317 Info Message Template Auto Format enabled
+2020-09-14 14:42:14.8631 Info Adding target DatabaseTarget(Name=d)
+2020-09-14 14:42:14.9876 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-14 14:42:15.1831 Info Configuration initialized.
+2020-09-14 14:42:15.1831 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-17 01:37:35.2433 Info Message Template Auto Format enabled
+2020-09-17 01:37:35.3444 Info Adding target DatabaseTarget(Name=d)
+2020-09-17 01:37:35.3820 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-17 01:37:35.5769 Info Configuration initialized.
+2020-09-17 01:37:35.5769 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-17 01:40:09.9184 Info Message Template Auto Format enabled
+2020-09-17 01:40:09.9540 Info Adding target DatabaseTarget(Name=d)
+2020-09-17 01:40:09.9781 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-17 01:40:10.0071 Info Configuration initialized.
+2020-09-17 01:40:10.0071 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-17 01:40:52.3775 Info Message Template Auto Format enabled
+2020-09-17 01:40:52.4010 Info Adding target DatabaseTarget(Name=d)
+2020-09-17 01:40:52.4238 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-17 01:40:52.4495 Info Configuration initialized.
+2020-09-17 01:40:52.4495 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-17 01:40:57.8361 Info AppDomain Shutting down. Logger closing...
+2020-09-17 01:40:57.8577 Info Logger has been shut down.
+2020-09-17 01:41:17.8746 Info Message Template Auto Format enabled
+2020-09-17 01:41:17.9005 Info Adding target DatabaseTarget(Name=d)
+2020-09-17 01:41:17.9187 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-17 01:41:17.9334 Info Configuration initialized.
+2020-09-17 01:41:17.9334 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-17 01:47:28.5797 Info AppDomain Shutting down. Logger closing...
+2020-09-17 01:47:28.5797 Info Logger has been shut down.
+2020-09-17 01:49:08.0722 Info Message Template Auto Format enabled
+2020-09-17 01:49:08.0955 Info Adding target DatabaseTarget(Name=d)
+2020-09-17 01:49:08.1189 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-17 01:49:08.2017 Info Configuration initialized.
+2020-09-17 01:49:08.2017 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-17 01:49:48.7627 Info AppDomain Shutting down. Logger closing...
+2020-09-17 01:49:48.7627 Info Logger has been shut down.
+2020-09-17 01:50:19.2224 Info Message Template Auto Format enabled
+2020-09-17 01:50:19.2758 Info Adding target DatabaseTarget(Name=d)
+2020-09-17 01:50:19.2939 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-17 01:50:19.3084 Info Configuration initialized.
+2020-09-17 01:50:19.3084 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-17 17:16:54.8097 Info AppDomain Shutting down. Logger closing...
+2020-09-17 17:16:54.9120 Info Logger has been shut down.
+2020-09-17 17:18:03.1573 Info Message Template Auto Format enabled
+2020-09-17 17:18:03.2300 Info Adding target DatabaseTarget(Name=d)
+2020-09-17 17:18:03.2550 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-17 17:18:03.3701 Info Configuration initialized.
+2020-09-17 17:18:03.3701 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-17 17:41:11.7719 Info Message Template Auto Format enabled
+2020-09-17 17:41:11.8457 Info Adding target DatabaseTarget(Name=d)
+2020-09-17 17:41:11.8741 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-17 17:41:11.9122 Info Configuration initialized.
+2020-09-17 17:41:11.9122 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-17 17:45:17.1296 Info Message Template Auto Format enabled
+2020-09-17 17:45:17.1602 Info Adding target DatabaseTarget(Name=d)
+2020-09-17 17:45:17.1900 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-17 17:45:17.2251 Info Configuration initialized.
+2020-09-17 17:45:17.2251 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-18 01:57:27.0617 Info Message Template Auto Format enabled
+2020-09-18 01:57:27.2351 Info Adding target DatabaseTarget(Name=d)
+2020-09-18 01:57:27.2861 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-18 01:57:27.3832 Info Configuration initialized.
+2020-09-18 01:57:27.3832 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False
+2020-09-18 02:06:59.6416 Info AppDomain Shutting down. Logger closing...
+2020-09-18 02:06:59.6546 Info Logger has been shut down.
+2020-09-18 02:08:31.8327 Info Message Template Auto Format enabled
+2020-09-18 02:08:31.8899 Info Adding target DatabaseTarget(Name=d)
+2020-09-18 02:08:31.9299 Info Validating config: TargetNames=d, ConfigItems=26, FilePath=E:\Ranu\Asp.net Core API with SQL\aspnet-core-3-signup-verification-api-master\bin\Debug\netcoreapp3.1\NLog.config
+2020-09-18 02:08:31.9603 Info Configuration initialized.
+2020-09-18 02:08:31.9603 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.4.12037. Product version: 4.7.4+454058bafb2ed9f9432163ab9436e1afac0b231f. GlobalAssemblyCache: False

@@ -1,0 +1,59 @@
+﻿@model UsersManagement.Domain.Employee.Employee
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Shared/_EmployeeLayout.cshtml";
+}
+
+<h1>Profile</h1>
+<style>
+    .span {
+        color: red
+    }
+</style>
+
+
+<form method="post" asp-controller="Employee" asp-action="Profile" enctype="multipart/form-data" >
+    @*asp-route-returnurl="@Model.ReturnUrl">*@
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name"></span>
+    </div>
+
+    <div>
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" />
+        <span asp-validation-for="Phone"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label asp-for="Salary"></label>
+        <input asp-for="Salary" />
+        <span asp-validation-for="Salary"></span>
+    </div>
+    <div>
+        <label asp-for="ProfileImage" class="control-label"></label>
+        <div class="custom-file">
+            <input asp-for="ProfileImage" class="custom-file-input" id="customFile">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+        </div>
+        <span asp-validation-for="ProfileImage" class="text-danger"></span>
+    </div>
+    <div style="padding-top:20px;">
+        @if (User.Identity.HavePermission("WRITE_ACCESS") == true)
+        {
+            <button type="submit" id="btn" class="btn btn-primary btn-lg">Save</button><span style="color:orangered;padding-left:30px;">'@User.Identity.Name' have WRITE permission to add data</span>
+        }
+        else
+        {
+            <button type="submit" id="btn" disabled="disabled" class="btn btn-primary btn-lg">Save</button><span style="color:orangered;padding-left:30px;">'@User.Identity.Name' DO NOT have WRITE permission to add data, Save button Disabled</span>
+        }
+    </div>
+</form>

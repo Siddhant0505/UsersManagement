@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - LoginDemo</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Dashboard">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="AddTask">Add Task</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="AddStaff">Add Staff</a>
+                    </li>
+                </ul>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
+                    <span style="color:yellow;padding-left:100px;">
+                        @User.Identity.Name @ViewBag.UserRole
+                    </span>
+                </a>
+            </div>
+
+            <div class="pull-right" style="padding-top:2px;">
+                <div>
+                    @Html.ActionLink("Log Off", "Logoff", "Home", null, new { @class = "btn btn-primary btn-lg rph-login-button" })
+                </div>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav"></ul>
+            </div>
+        </div>
+    </nav>
+
+    @*<partial name="_CookieConsentPartial" />*@
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; 2019 - LoginDemo - Joseph Rozario</p>
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+<script>
+    $(document).ajaxError(function (xhr, result) {
+        //Catch Ajax error for HTTP 403 forbidden, ONLY when it is returned from Server side - JRozario
+        if (result.status === 403) {
+            window.location.href = '/Home/Index';
+        }
+        if (result.status === 401) {
+            window.location.href = '/Home/NoPermission';
+        }
+    });
+</script>
+
